@@ -1,0 +1,9 @@
+.number_input{
+    text-align: center;
+    background-color: var(--accent-color);
+    border: 0px;
+    border-radius: 7px;
+    font-size: 3rem;
+    color: var(--text-color);
+    width: min(300px, 40%);
+}
