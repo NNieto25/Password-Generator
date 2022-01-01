@@ -1,0 +1,11 @@
+.checkbox{
+    height: 1.6rem;
+    width: 1.6rem;
+    cursor: pointer;
+}
+
+.label{
+    color: var(--accent-color);
+    font-size: 2rem;
+    cursor: pointer;
+}
