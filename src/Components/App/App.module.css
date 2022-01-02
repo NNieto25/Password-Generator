@@ -15,7 +15,6 @@
     margin: 40px;
 }
 
-
 #group{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,3 +24,21 @@
 #group > *{
     margin: 20px 10px;
 }
+
+@media(max-width:500px){
+    .main_box > *{
+        margin-top: 0px;
+    }
+
+    .main_box > div:nth-child(1) {
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    #group{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
