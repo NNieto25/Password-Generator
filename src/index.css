@@ -17,10 +17,7 @@ code {
   --text-color: #FAEDF0;
   --background-color: #222831;
   --contrast-color: #393E46;
-  min-height: 100vh;
-  padding: 0;
-  margin: 0;
-  background-color: var(--background-color);
+  
 }
 
 input::-webkit-outer-spin-button,
@@ -32,4 +29,14 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-color);
 }
