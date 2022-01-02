@@ -1,0 +1,27 @@
+.main_box{
+    border-radius: 15px;
+    background-color: var(--contrast-color);
+    width: min(950px, 80%);
+    height: auto;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.main_box > * {
+    margin: 40px;
+}
+
+
+#group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#group > *{
+    margin: 20px 10px;
+}
