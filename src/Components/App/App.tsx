@@ -61,6 +61,7 @@ const App: FC = () => {
         </div>
         <Button handleClick={updatePassword} text="Generate Password"/>
       </div>
+      <span className={styles.author}><a href="https://github.com/NNieto25/" target="_blank" rel="noreferrer" >Made with ♥ by Nestor Nieto</a></span>
     </div>
   );
 }

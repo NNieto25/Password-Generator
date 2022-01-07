@@ -42,3 +42,14 @@
 }
 
 
+.author{
+    padding: 10px;
+    color: var(--accent-color);
+    font-size: 2.5vmin;
+}
+
+.author > a:visited, .author>a:link{
+    text-decoration: none underline;
+    color: inherit;
+    cursor: pointer;
+}
