@@ -1,7 +1,10 @@
 # Password Generator 🔐
 ![Desktop Screenshot](desktop-screenshot.png)
 
-## Live Example 🧬
+## Demo video 🎥
+![Demo video](demo-video.gif)
+
+## Live code 🧬
 The web app is hosted in GitHub Pages; you can see it 👉 [Here](https://nnieto25.github.io/Password-Generator/) 👈.
 
 ## Core features 💻
